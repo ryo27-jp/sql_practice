@@ -7,3 +7,8 @@ CREATE TABLE Jyushoroku
 
     PRIMARY KEY(toroku_bango)
   );
+
+
+  ALTER TABLE Jyushoroku ADD COLUMN yubin_bango CHAR(8) NOT NULL;
+
+  -- DROP TABLE Jyushoroku;
